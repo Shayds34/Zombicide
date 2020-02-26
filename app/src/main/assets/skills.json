@@ -2,50 +2,567 @@
 	{
 		"skill_id": 1,
 		"skill_name": "",
-		"skill_name_en": "+1 die: Melee",
-		"description": "Lancez un dé supplémentaire lors des actions de combat en mêlée. Les armes de mêlée dual gagnent un dé chacune, offrant ainsi 2 dés supplémentaires lors d'actions de combat en mêlée avec une paire d'armes identiques.",
-		"description_en": "Lancez un dé supplémentaire lors des actions de combat en mêlée. Les armes de mêlée dual gagnent un dé chacune, offrant ainsi 2 dés supplémentaires lors d'actions de combat en mêlée avec une paire d'armes identiques."
+		"skill_name_en": "+1 Action",
+		"description": "",
+		"description_en": "The Survivor has an extra Action he may use as he pleases."
 	},
 	{
 		"skill_id": 2,
 		"skill_name": "",
-		"skill_name_en": "+1 die: Melee",
-		"description": "Lancez un dé supplémentaire lors des actions de combat en mêlée. Les armes de mêlée dual gagnent un dé chacune, offrant ainsi 2 dés supplémentaires lors d'actions de combat en mêlée avec une paire d'armes identiques.",
-		"description_en": "Lancez un dé supplémentaire lors des actions de combat en mêlée. Les armes de mêlée dual gagnent un dé chacune, offrant ainsi 2 dés supplémentaires lors d'actions de combat en mêlée avec une paire d'armes identiques."
+		"skill_name_en": "+1 Damage: [Type]",
+		"description": "",
+		"description_en": "The Survivor gets a +1 Damage bonus with the specified type of Combat Action (Magic, Melee or Ranged)."
 	},
 	{
 		"skill_id": 3,
 		"skill_name": "",
-		"skill_name_en": "+1 die: Melee",
-		"description": "Lancez un dé supplémentaire lors des actions de combat en mêlée. Les armes de mêlée dual gagnent un dé chacune, offrant ainsi 2 dés supplémentaires lors d'actions de combat en mêlée avec une paire d'armes identiques.",
-		"description_en": "Lancez un dé supplémentaire lors des actions de combat en mêlée. Les armes de mêlée dual gagnent un dé chacune, offrant ainsi 2 dés supplémentaires lors d'actions de combat en mêlée avec une paire d'armes identiques."
+		"skill_name_en": "+1 Damage with [Equipment]",
+		"description": "",
+		"description_en": "The Survivor gets a +1 Damage bonus with the specified Equipment."
 	},
 	{
 		"skill_id": 4,
 		"skill_name": "",
-		"skill_name_en": "+1 die: Melee",
-		"description": "Lancez un dé supplémentaire lors des actions de combat en mêlée. Les armes de mêlée dual gagnent un dé chacune, offrant ainsi 2 dés supplémentaires lors d'actions de combat en mêlée avec une paire d'armes identiques.",
-		"description_en": "Lancez un dé supplémentaire lors des actions de combat en mêlée. Les armes de mêlée dual gagnent un dé chacune, offrant ainsi 2 dés supplémentaires lors d'actions de combat en mêlée avec une paire d'armes identiques."
+		"skill_name_en": "+1 to dice roll: Combat",
+		"description": "",
+		"description_en": "The Survivor adds 1 to the result of each die he rolls on a Combat Action (Melee, Ranged or Magic). The maximum result is always 6."
 	},
 	{
 		"skill_id": 5,
 		"skill_name": "",
-		"skill_name_en": "+1 die: Melee",
-		"description": "Lancez un dé supplémentaire lors des actions de combat en mêlée. Les armes de mêlée dual gagnent un dé chacune, offrant ainsi 2 dés supplémentaires lors d'actions de combat en mêlée avec une paire d'armes identiques.",
-		"description_en": "Lancez un dé supplémentaire lors des actions de combat en mêlée. Les armes de mêlée dual gagnent un dé chacune, offrant ainsi 2 dés supplémentaires lors d'actions de combat en mêlée avec une paire d'armes identiques."
+		"skill_name_en": "+1 to dice roll: Magic",
+		"description": "",
+		"description_en": "The Survivor adds 1 to the result of each die he rolls on a Magic Action. The maximum result is always 6."
 	},
 	{
 		"skill_id": 6,
 		"skill_name": "",
-		"skill_name_en": "+1 die: Melee",
-		"description": "Lancez un dé supplémentaire lors des actions de combat en mêlée. Les armes de mêlée dual gagnent un dé chacune, offrant ainsi 2 dés supplémentaires lors d'actions de combat en mêlée avec une paire d'armes identiques.",
-		"description_en": "Lancez un dé supplémentaire lors des actions de combat en mêlée. Les armes de mêlée dual gagnent un dé chacune, offrant ainsi 2 dés supplémentaires lors d'actions de combat en mêlée avec une paire d'armes identiques."
+		"skill_name_en": "+1 to dice roll: Melee",
+		"description": "",
+		"description_en": "The Survivor adds 1 to the result of each die he rolls in Melee Actions. The maximum result is always 6."
 	},
 	{
 		"skill_id": 7,
 		"skill_name": "",
+		"skill_name_en": "+1 to dice roll: Ranged",
+		"description": "",
+		"description_en": "The Survivor adds 1 to the result of each die he rolls in Ranged Actions. The maximum result is always 6."
+	},
+	{
+		"skill_id": 8,
+		"skill_name": "",
+		"skill_name_en": "+1 die: Combat",
+		"description": "",
+		"description_en": "The Survivor’s weapons and Combat spells roll an extra die in Combat (Melee, Ranged or Magic). Dual weapons and spells gain a die each, for a total of +2 dice per Dual Combat Action."
+	},
+	{
+		"skill_id": 9,
+		"skill_name": "",
+		"skill_name_en": "+1 die: Magic",
+		"description": "",
+		"description_en": "The Survivor’s Combat spells roll an extra die for Magic Actions. Dual Combat spells gain a die each, for a total of +2 dice per Dual Magic Action."
+	},
+	{
+		"skill_id": 10,
+		"skill_name": "",
 		"skill_name_en": "+1 die: Melee",
-		"description": "Lancez un dé supplémentaire lors des actions de combat en mêlée. Les armes de mêlée dual gagnent un dé chacune, offrant ainsi 2 dés supplémentaires lors d'actions de combat en mêlée avec une paire d'armes identiques.",
-		"description_en": "Lancez un dé supplémentaire lors des actions de combat en mêlée. Les armes de mêlée dual gagnent un dé chacune, offrant ainsi 2 dés supplémentaires lors d'actions de combat en mêlée avec une paire d'armes identiques."
+		"description": "",
+		"description_en": "The Survivor’s Melee weapons roll an extra die for Melee Actions. Dual Melee weapons gain a die each, for a total of +2 dice per Dual Melee Action."
+	},
+	{
+		"skill_id": 11,
+		"skill_name": "",
+		"skill_name_en": "+1 die: Ranged",
+		"description": "",
+		"description_en": "The Survivor’s Ranged weapons roll an extra die for Ranged Actions. Dual Ranged weapons gain a die each, for a total of +2 dice per Dual Ranged Action."
+	},
+	{
+		"skill_id": 12,
+		"skill_name": "",
+		"skill_name_en": "+1 free Combat Action",
+		"description": "",
+		"description_en": "The Survivor has one extra free Combat Action. This Action may only be used for Melee, Ranged or Magic Actions."
+	},
+	{
+		"skill_id": 13,
+		"skill_name": "",
+		"skill_name_en": "+1 free Enchantment Action",
+		"description": "",
+		"description_en": "The Survivor has one extra free Enchantment Action. This Action may only be used for Enchantment Actions."
+	},
+	{
+		"skill_id": 14,
+		"skill_name": "",
+		"skill_name_en": "+1 free Magic Action",
+		"description": "",
+		"description_en": "The Survivor has one extra free Magic Action. This Action may only be used for Magic Actions."
+	},
+	{
+		"skill_id": 15,
+		"skill_name": "",
+		"skill_name_en": "+1 free Melee Action",
+		"description": "",
+		"description_en": "The Survivor has one extra free Melee Action. This Action may only be used for a Melee Action."
+	},
+	{
+		"skill_id": 16,
+		"skill_name": "",
+		"skill_name_en": "+1 free Move Action",
+		"description": "",
+		"description_en": "The Survivor has one extra free Move Action. This Action may only be used as a Move Action."
+	},
+	{
+		"skill_id": 17,
+		"skill_name": "",
+		"skill_name_en": "+1 free Ranged Action",
+		"description": "",
+		"description_en": "The Survivor has one extra free Ranged Action. This Action may only be used as a Ranged Action."
+	},
+	{
+		"skill_id": 18,
+		"skill_name": "",
+		"skill_name_en": "+1 free Search Action",
+		"description": "",
+		"description_en": "The Survivor has one extra free Search Action. This Action may only be used to Search, and the Survivor can still only Search once per Turn."
+	},
+	{
+		"skill_id": 19,
+		"skill_name": "",
+		"skill_name_en": "+1 max Range",
+		"description": "",
+		"description_en": "The Survivor’s Ranged weapons and Combat spells’ maximum Range is increased by 1."
+	},
+	{
+		"skill_id": 20,
+		"skill_name": "",
+		"skill_name_en": "+1 Zone per Move",
+		"description": "",
+		"description_en": "The Survivor can move through one extra Zone each time he performs a Move Action. This Skill stacks with other effects benefiting Move Actions. Entering a Zone containing Zombies ends the Survivor’s Move Action."
+	},
+	{
+		"skill_id": 21,
+		"skill_name": "",
+		"skill_name_en": "2 Zones per Move Action",
+		"description": "",
+		"description_en": "When the Survivor spends one Action to Move, he can move one or two Zones instead of one. Entering a Zone containing Zombies ends the Survivor’s Move Action."
+	},
+	{
+		"skill_id": 22,
+		"skill_name": "",
+		"skill_name_en": "Ambidextrous",
+		"description": "",
+		"description_en": "The Survivor treats all Combat spells, Melee and Ranged weapons as if they had the Dual symbol."
+	},
+	{
+		"skill_id": 23,
+		"skill_name": "",
+		"skill_name_en": "Barbarian",
+		"description": "",
+		"description_en": "When resolving a Melee Action, the Survivor may substitute the Dice number of the Melee weapon(s) he uses with the number of Zombies standing in the targeted Zone. Skills affecting the dice value, like +1 die: Melee, still apply."
+	},
+	{
+		"skill_id": 24,
+		"skill_name": "",
+		"skill_name_en": "Blitz",
+		"description": "",
+		"description_en": "Each time the Survivor kills the last Zombie in a Zone, he gets 1 free Move Action to use immediately."
+	},
+	{
+		"skill_id": 25,
+		"skill_name": "",
+		"skill_name_en": "Bloodlust: Combat",
+		"description": "",
+		"description_en": "Spend one Action with the Survivor: He Moves up to two Zones to a Zone containing at least one Zombie. He then gains one free Combat Action (Melee, Ranged or Magic)."
+	},
+	{
+		"skill_id": 26,
+		"skill_name": "",
+		"skill_name_en": "Bloodlust: Magic",
+		"description": "",
+		"description_en": "Spend one Action with the Survivor: He Moves up to two Zones to a Zone containing at least one Zombie. He then gains one free Magic Action, to use immediately."
+	},
+	{
+		"skill_id": 27,
+		"skill_name": "",
+		"skill_name_en": "Bloodlust:",
+		"description": "",
+		"description_en": ""
+	},
+	{
+		"skill_id": 28,
+		"skill_name": "",
+		"skill_name_en": "Melee",
+		"description": "",
+		"description_en": "Spend one Action with the Survivor: He Moves up to two Zones to a Zone containing at least one Zombie. He then gains one free Melee Action, to use immediately."
+	},
+	{
+		"skill_id": 29,
+		"skill_name": "",
+		"skill_name_en": "Bloodlust: Ranged",
+		"description": "",
+		"description_en": "Spend one Action with the Survivor: He Moves up to two Zones to a Zone containing at least one Zombie. He then gains one free Ranged Action, to use immediately."
+	},
+	{
+		"skill_id": 30,
+		"skill_name": "",
+		"skill_name_en": "Born leader",
+		"description": "",
+		"description_en": "During the Survivor’s Turn, he may give one free Action to another Survivor 
+	to use as he pleases. This Action must be used during the recipient’s next Turn or it is lost."
+	},
+	{
+		"skill_id": 31,
+		"skill_name": "",
+		"skill_name_en": "Break-in",
+		"description": "",
+		"description_en": "In order to open doors, the Survivor rolls no dice, and needs no equipment (but still spends an Action to do so). He doesn’t make Noise while using this Skill. However, other prerequisites still apply (such as taking a designated Objective before a door can be opened). Moreover, the Survivor gains one extra free Action that can only be used to open doors."
+	},
+	{
+		"skill_id": 32,
+		"skill_name": "",
+		"skill_name_en": "Charge",
+		"description": "",
+		"description_en": "The Survivor can use this Skill for free, as often as he pleases, during each of his Turns: He moves up to two Zones to a Zone containing at least one Zombie. Normal Movement 
+	rules still apply. Entering a Zone containing Zombies ends the Survivor’s Move Action."
+	},
+	{
+		"skill_id": 33,
+		"skill_name": "",
+		"skill_name_en": "Collector: [Zombie type]",
+		"description": "",
+		"description_en": "The Survivor gains double the experience each time he kills a Zombie of the specified type."
+	},
+	{
+		"skill_id": 34,
+		"skill_name": "",
+		"skill_name_en": "Destiny",
+		"description": "",
+		"description_en": "The Survivor can use this Skill once per Turn when he reveals an Equipment card he drew. You can ignore and discard that card, then draw another Equipment card. Free reload – The Survivor reloads reloadable weapons (Hand Crossbows, Orcish Crossbow, etc.) for free."
+	},
+	{
+		"skill_id": 35,
+		"skill_name": "",
+		"skill_name_en": "Frenzy: Combat",
+		"description": "",
+		"description_en": "All weapons and Combat spells the Survivor carries gain +1 die per Wound the Survivor suffers. Dual weapons gain a die each, for a total of +2 dice per Wound and 
+	per Dual Combat Action (Melee, Ranged or Magic)."
+	},
+	{
+		"skill_id": 36,
+		"skill_name": "",
+		"skill_name_en": "Frenzy: Magic",
+		"description": "",
+		"description_en": "Combat spells the Survivor carries gain +1 die per Wound the Survivor suffers. Dual Combat spells gain a die each, for a total of +2 dice per Wound and per Dual Magic Action."
+	},
+	{
+		"skill_id": 37,
+		"skill_name": "",
+		"skill_name_en": "Frenzy: Melee",
+		"description": "",
+		"description_en": "Melee weapons the Survivor carries gain +1 die per Wound the Survivor suffers. Dual Melee weapons gain a die each, for a total of +2 dice per Wound and per Dual Melee Action."
+	},
+	{
+		"skill_id": 38,
+		"skill_name": "",
+		"skill_name_en": "Frenzy: Ranged",
+		"description": "",
+		"description_en": "Ranged weapons the Survivor carries gain +1 die per Wound the Survivor suffers. Dual Ranged weapons gain a die each, for a total of +2 dice per Wound and per Dual 
+	Ranged Action."
+	},
+	{
+		"skill_id": 39,
+		"skill_name": "",
+		"skill_name_en": "Hit & run",
+		"description": "",
+		"description_en": "The Survivor can use this Skill for free, just after he resolved a Magic, Melee or Ranged Action resulting in at least a Zombie kill. He can then resolve a free Move Action. The Survivor does not spend extra Actions to perform this free Move Action if Zombies are standing in his Zone."
+	},
+	{
+		"skill_id": 40,
+		"skill_name": "",
+		"skill_name_en": "Hold your nose",
+		"description": "",
+		"description_en": "This Skill can be used once per Turn. The Survivor gets a free Search Action in the Zone if he has eliminated a Zombie (even in a Vault or a street Zone) the same Game Round. This Action may only be used to Search, and the Survivor can still only Search once per Turn."
+	},
+	{
+		"skill_id": 41,
+		"skill_name": "",
+		"skill_name_en": "Ironclad: [Zombie type]",
+		"description": "",
+		"description_en": "The Survivor ignores all Wounds coming from Zombies of the specified type (such as “Walker”, “Runner”, etc.)."
+	},
+	{
+		"skill_id": 42,
+		"skill_name": "",
+		"skill_name_en": "Iron hide",
+		"description": "",
+		"description_en": "The Survivor can make Armor rolls with a 5+ Armor value, even when he does not wear an armor on his Body slot. Wearing an armor, the Survivor adds 1 to the result of each die he rolls for Armor rolls. The maximum result is always 6."
+	},
+	{
+		"skill_id": 43,
+		"skill_name": "",
+		"skill_name_en": "Iron rain",
+		"description": "",
+		"description_en": "When resolving a Ranged Action, the Survivor may substitute the Dice number of the Ranged weapon(s) he uses with the number of Zombies standing in the targeted Zone. Skills affecting the dice value, like +1 die: Ranged, still apply."
+	},
+	{
+		"skill_id": 44,
+		"skill_name": "",
+		"skill_name_en": "Is that all you’ve got?",
+		"description": "",
+		"description_en": "You can use this Skill any time the Survivor is about to get Wounds. Discard one Equipment card in your Survivor’s inventory for each Wound he’s about 
+	to receive. Negate a Wound per discarded Equipment card."
+	},
+	{
+		"skill_id": 45,
+		"skill_name": "",
+		"skill_name_en": "Jump",
+		"description": "",
+		"description_en": "The Survivor can use this Skill once during each Activation. The Survivor spends one Action: He moves two Zones into a Zone to which he has Line of Sight. Movement related Skills (like +1 Zone per Move Action or Slippery) are ignored, but Movement penalties (like having Zombies in the starting Zone) apply. Ignore everything in the intervening Zone."
+	},
+	{
+		"skill_id": 46,
+		"skill_name": "",
+		"skill_name_en": "Lifesaver",
+		"description": "",
+		"description_en": "The Survivor can use this Skill, for free, once during each of his Turns. Select a Zone containing at least one Zombie at Range 1 from your Survivor. Choose Survivors in the selected Zone to be dragged to your Survivor’s Zone without penalty. This is not a Move Action. A Survivor can decline the rescue and stay in the selected Zone if his controller chooses. Both Zones need to share a clear path. A Survivor can’t cross closed doors or walls, and can’t be extracted into or out of a Vault."
+	},
+	{
+		"skill_id": 47,
+		"skill_name": "",
+		"skill_name_en": "Lock it down",
+		"description": "",
+		"description_en": "At the cost of one Action, the Survivor can close an open door in his Zone. Opening or destroying it again later does not trigger a new Zombie Spawn."
+	},
+	{
+		"skill_id": 48,
+		"skill_name": "",
+		"skill_name_en": "Loud",
+		"description": "",
+		"description_en": "Once during each of his Turns, the Survivor can make a huge amount of noise! Until this Survivor’s next Turn, the Zone he used this Skill in is considered to have the highest number of Noise tokens on the entire board. If different Survivors have this Skill, only the last one who used it applies the effects."
+	},
+	{
+		"skill_id": 49,
+		"skill_name": "",
+		"skill_name_en": "Low profile",
+		"description": "",
+		"description_en": "The Survivor can’t get hit by Survivors’ Magic and Ranged Actions. Ignore him when casting a Combat spell or shooting in the Zone he stands in. Game effects that kill 
+	everything in the targeted Zone, like Dragon Fire, still kill him, though."
+	},
+	{
+		"skill_id": 50,
+		"skill_name": "",
+		"skill_name_en": "Lucky",
+		"description": "",
+		"description_en": "The Survivor can re-roll once all the dice for each Action (or Armor roll) he takes. The new result takes the place of the previous one. This Skill stacks with the effects of other Skills and Equipment that allows re-rolls."
+	},
+	{
+		"skill_id": 51,
+		"skill_name": "",
+		"skill_name_en": "Mana rain",
+		"description": "",
+		"description_en": "When resolving a Magic Action, the Survivor may substitute the Dice number of the Combat spell(s) he uses with the number of Zombies standing in the targeted Zone. Skills affecting the dice value, like +1 die: Magic, still apply."
+	},
+	{
+		"skill_id": 52,
+		"skill_name": "",
+		"skill_name_en": "Marksman",
+		"description": "",
+		"description_en": "The Survivor may freely choose the targets of all his Magic and Ranged Actions. Misses don’t hit Survivors."
+	},
+	{
+		"skill_id": 53,
+		"skill_name": "",
+		"skill_name_en": "Matching set!",
+		"description": "",
+		"description_en": "When a Survivor performs a Search Action and draws an Equipment card with the Dual symbol, he can immediately take a second card of the same type from the Equipment deck. Shuffle the deck afterward."
+	},
+	{
+		"skill_id": 54,
+		"skill_name": "",
+		"skill_name_en": "Point-blank",
+		"description": "",
+		"description_en": "The Survivor can resolve Ranged and Magic Actions in his own Zone, no matter the minimum Range. When resolving a Magic or Ranged Action at Range 0, the Survivor freely chooses the targets and can kill any type of Zombies. His Combat spells and Ranged weapons still need to inflict enough Damage to kill his targets. Misses don’t hit Survivors."
+	},
+	{
+		"skill_id": 55,
+		"skill_name": "",
+		"skill_name_en": "Reaper: Combat",
+		"description": "",
+		"description_en": "Use this Skill when assigning hits while resolving a Combat Action (Melee, Ranged or Magic). One of these hits can freely kill an additional identical Zombie in the same Zone. Only a single additional Zombie can be killed per Action when using this Skill. The Survivor gains the experience for the additional Zombie."
+	},
+	{
+		"skill_id": 56,
+		"skill_name": "",
+		"skill_name_en": "Reaper: Magic",
+		"description": "",
+		"description_en": "Use this Skill when assigning hits while resolving a Magic Action. One of these hits can freely kill an additional identical Zombie in the same Zone. Only a single additional Zombie can be killed per Action when using this Skill. The Survivor gains the experience for the additional Zombie."
+	},
+	{
+		"skill_id": 57,
+		"skill_name": "",
+		"skill_name_en": "Reaper: Melee",
+		"description": "",
+		"description_en": "Use this Skill when assigning hits while resolving a Melee Action. One of these hits can freely kill an additional identical Zombie in the same Zone. Only a single additional Zombie can be killed per Action when using this Skill.The Survivor gains the experience for the additional Zombie."
+	},
+	{
+		"skill_id": 58,
+		"skill_name": "",
+		"skill_name_en": "Reaper: Ranged",
+		"description": "",
+		"description_en": "Use this Skill when assigning hits while resolving a Ranged Action. One of these hits can freely kill an additional identical Zombie in the same Zone. Only a single additional Zombie can be killed per Action when using this Skill. The Survivor gains the experience for the additional Zombie. "
+	},
+	{
+		"skill_id": 59,
+		"skill_name": "",
+		"skill_name_en": "Regeneration",
+		"description": "",
+		"description_en": "At the end of each Game Round, remove all Wounds the Survivor received. Regeneration doesn’t work if the Survivor has been eliminated."
+	},
+	{
+		"skill_id": 60,
+		"skill_name": "",
+		"skill_name_en": "Roll 6: +1 die Combat",
+		"description": "",
+		"description_en": "You may roll an additional die for each “6” rolled on any Combat Action (Melee, Ranged or Magic). Keep on rolling additional dice as long as you keep getting “6”. Game effects that allow re-rolls (the Plenty Of Arrows Equipment card, for example) must be used before rolling any additional dice for this Skill."
+	},
+	{
+		"skill_id": 61,
+		"skill_name": "",
+		"skill_name_en": "Roll 6: +1 die Magic",
+		"description": "",
+		"description_en": "You may roll an additional die for each “6” rolled on a Magic Action. Keep on rolling additional dice as long as you keep getting “6”. Game effects that allow rerolls must be used before rolling any additional dice for this Skill."
+	},
+	{
+		"skill_id": 62,
+		"skill_name": "",
+		"skill_name_en": "Roll 6: +1 die Melee",
+		"description": "",
+		"description_en": "You may roll an additional die for each “6” rolled on a Melee Action. Keep on rolling additional dice as long as you keep getting “6”. Game effects that allow rerolls must be used before rolling any additional dice for this Skill."
+	},
+	{
+		"skill_id": 63,
+		"skill_name": "",
+		"skill_name_en": "Roll 6: +1 die Ranged",
+		"description": "",
+		"description_en": "You may roll an additional die for each “6” rolled on a Ranged Action. Keep on rolling additional dice as long as you keep getting “6”. Game effects that allow re-rolls (the Plenty Of Arrows Equipment card, for example) must be used before rolling any additional dice for this Skill."
+	},
+	{
+		"skill_id": 64,
+		"skill_name": "",
+		"skill_name_en": "Rotten",
+		"description": "",
+		"description_en": "At the end of his Turn, if the Survivor has not resolved a Combat Action (Melee, Ranged or Magic) and not produced a Noise token, place a Rotten token next to his base. As long as he has this token, he is totally ignored by all Zombies and is not considered a Noise token. Zombies don’t attack him and will even walk past him. The Survivor loses his Rotten token if he resolves any kind of Combat Action (Melee, Ranged or Magic) or makes noise. Even with the Rotten token, the Survivor still has to spend extra Actions to move out of a Zone crowded with Zombies."
+	},
+	{
+		"skill_id": 65,
+		"skill_name": "",
+		"skill_name_en": "Scavenger",
+		"description": "",
+		"description_en": "The Survivor can Search in any Zone. This includes street Zones, Vault Zones, etc."
+	},
+	{
+		"skill_id": 66,
+		"skill_name": "",
+		"skill_name_en": "Search: +1 card",
+		"description": "",
+		"description_en": "Draw an extra card when Searching with the Survivor."
+	},
+	{
+		"skill_id": 67,
+		"skill_name": "",
+		"skill_name_en": "Shove",
+		"description": "",
+		"description_en": "The Survivor can use this Skill, for free, once during each of his Turns. Select a Zone at Range 1 from your Survivor. All Zombies standing in your Survivor’s Zone are pushed to the selected Zone. This is not a Movement. Both Zones need to share a clear path. A Zombie can’t cross closed doors, ramparts (see the Wulfsburg expansion) or walls, but can be shoved in or out of a Vault."
+	},
+	{
+		"skill_id": 68,
+		"skill_name": "",
+		"skill_name_en": "Slippery",
+		"description": "",
+		"description_en": "The Survivor does not spend extra Actions when he performs a Move Action out of a Zone containing Zombies. Entering a Zone containing Zombies ends the Survivor’s Move Action."
+	},
+	{
+		"skill_id": 69,
+		"skill_name": "",
+		"skill_name_en": "Spellbook",
+		"description": "",
+		"description_en": "All Combat spells and Enchantments in the Survivor’s Inventory are considered equipped in Hand. With this Skill, a Survivor could effectively be considered as having several Combat spells and Enchantments cards equipped in Hand. For obvious reasons, he can only use two identical dual Combat Spells at any given time. Choose any combination of two before resolving Actions or rolls involving the Survivor."
+	},
+	{
+		"skill_id": 70,
+		"skill_name": "",
+		"skill_name_en": "Spellcaster",
+		"description": "",
+		"description_en": "The Survivor has one extra free Action. This Action may only be used for a Magic Action or an Enchantment Action."
+	},
+	{
+		"skill_id": 71,
+		"skill_name": "",
+		"skill_name_en": "Sprint",
+		"description": "",
+		"description_en": "The Survivor can use this Skill once during each of his Turns. Spend one Move Action with the Survivor: He may move two or three Zones instead of one. Entering a Zone containing Zombies ends the Survivor’s Move Action."
+	},
+	{
+		"skill_id": 72,
+		"skill_name": "",
+		"skill_name_en": "Super strength",
+		"description": "",
+		"description_en": "Consider the Damage value of Melee weapons used by the Survivor to be 3."
+	},
+	{
+		"skill_id": 73,
+		"skill_name": "",
+		"skill_name_en": "Starts with a [Equipment]",
+		"description": "",
+		"description_en": "The Survivor begins the game with the indicated Equipment; its card is automatically assigned to him during Setup."
+	},
+	{
+		"skill_id": 74,
+		"skill_name": "",
+		"skill_name_en": "Steady hand",
+		"description": "",
+		"description_en": "The Survivor can ignore other Survivors of his choosing when missing with a Magic or Ranged Action. The Skill does not apply to game effects killing everything in the targeted Zone (such as a Dragon Fire, for example)."
+	},
+	{
+		"skill_id": 75,
+		"skill_name": "",
+		"skill_name_en": "Swordmaster",
+		"description": "",
+		"description_en": "The Survivor treats all Melee weapons as if they had the Dual symbol."
+	},
+	{
+		"skill_id": 76,
+		"skill_name": "",
+		"skill_name_en": "Tactician",
+		"description": "",
+		"description_en": "The Survivor’s Turn can be resolved anytime during the Players’ Phase, before or after any other Survivor’s Turn. If several Survivors benefit from this Skill at the same time, choose their Turn order."
+	},
+	{
+		"skill_id": 77,
+		"skill_name": "",
+		"skill_name_en": "Taunt",
+		"description": "",
+		"description_en": "The Survivor can use this Skill, for free, once during each of his Turns. Select a Zone your Survivor can see. All Zombies standing in the selected Zone immediately gain an extra Activation: They try to reach the taunting Survivor by any means available. Taunted Zombies ignore all other Survivors. They do not attack them and cross the Zone they stand in if needed to reach the taunting Survivor."
+	},
+	{
+		"skill_id": 78,
+		"skill_name": "",
+		"skill_name_en": "Tough",
+		"description": "",
+		"description_en": "The Survivor ignores the first Wound he receives from a single Zombie every Zombies’ Phase."
+	},
+	{
+		"skill_id": 79,
+		"skill_name": "",
+		"skill_name_en": "Trick shot",
+		"description": "",
+		"description_en": ""
+	},
+	{
+		"skill_id": 80,
+		"skill_name": "",
+		"skill_name_en": "Zombie link",
+		"description": "",
+		"description_en": "The Survivor plays an extra Turn each time an Extra Activation card is drawn from the Zombie pile. He plays before the extra-activated Zombies. If several Survivors benefit from this Skill at the same time, choose their Turn order."
 	}
 ]
