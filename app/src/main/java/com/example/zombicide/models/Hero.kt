@@ -1,7 +1,10 @@
 package com.example.zombicide.models
 
+import android.os.Parcelable
 import com.google.gson.annotations.SerializedName
+import kotlinx.android.parcel.Parcelize
 
+@Parcelize
 data class Hero (
 
     @SerializedName("id") val id : Int,
@@ -12,4 +15,4 @@ data class Hero (
     @SerializedName("alt_armor") val alt_armor : String,
     @SerializedName("alt_armor_en") val alt_armor_en : String,
     @SerializedName("skills") val skills : List<Skills>
-)
+) : Parcelable

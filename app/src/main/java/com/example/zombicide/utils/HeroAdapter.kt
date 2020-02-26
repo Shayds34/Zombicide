@@ -1,13 +1,14 @@
-package com.example.zombicide.controllers
+package com.example.zombicide.utils
 
 import android.content.Context
+import android.content.Intent
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.example.zombicide.R
+import com.example.zombicide.controllers.HeroActivity
 import com.example.zombicide.models.Hero
 import kotlinx.android.synthetic.main.list_item_hero.view.*
 
@@ -57,14 +58,10 @@ class HeroAdapter(private val context: Context, private var items: List<Hero>) :
         }
         fun setListeners(){
             itemView.setOnClickListener {
-                Toast.makeText(context, "${mHero.name} has been clicked.", Toast.LENGTH_LONG).show()
-                Log.d(TAG, "${mHero.name}'s skills are : ${mHero.skills}")
+                val intent = Intent(context, HeroActivity::class.java)
+                intent.putExtra("currentHero", mHero)
+                context.startActivity(intent)
             }
         }
-    }
-
-    fun updateList(items: List<Hero>){
-        this.items = items
-        notifyDataSetChanged()
     }
 }
