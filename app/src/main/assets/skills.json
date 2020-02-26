@@ -1,49 +1,51 @@
-{
-	"Game": "Zombicide",
-	"title": "Skills",
-	"version": "0.9",
-	"data" : [
-		{
-			"skill_id": 1,
-			"skill_name_en": "+1 die: Melee",
-			"skill_name_fr": "",
-			"description_fr": "Lancez un dé supplémentaire lors des actions de combat en mêlée. Les armes de mêlée dual gagnent un dé chacune, offrant ainsi 2 dés supplémentaires lors d'actions de combat en mêlée avec une paire d'armes identiques."
-		},
-		{
-			"skill_id": 2,
-			"skill_name_en": "+1 Action",
-			"skill_name_fr": "",
-			"description_fr": ""
-		},
-		{
-			"skill_id": 3,
-			"skill_name_en": "+1 free Melee Action",
-			"skill_name_fr": "",
-			"description_fr": ""
-		},
-		{
-			"skill_id": 4,
-			"skill_name_en": "Swordmaster",
-			"skill_name_fr": "",
-			"description_fr": ""
-		},
-		{
-			"skill_id": 5,
-			"skill_name_en": "+1 free Combat Action",
-			"skill_name_fr": "",
-			"description_fr": ""
-		},
-		{
-			"skill_id": 6,
-			"skill_name_en": "+1 to dice roll: Combat",
-			"skill_name_fr": "",
-			"description_fr": ""
-		},
-		{
-			"skill_id": 7,
-			"skill_name_en": "Hit & run",
-			"skill_name_fr": "",
-			"description_fr": ""
-		}
-	]
-}
+[
+	{
+		"skill_id": 1,
+		"skill_name": "",
+		"skill_name_en": "+1 die: Melee",
+		"description": "Lancez un dé supplémentaire lors des actions de combat en mêlée. Les armes de mêlée dual gagnent un dé chacune, offrant ainsi 2 dés supplémentaires lors d'actions de combat en mêlée avec une paire d'armes identiques.",
+		"description_en": "Lancez un dé supplémentaire lors des actions de combat en mêlée. Les armes de mêlée dual gagnent un dé chacune, offrant ainsi 2 dés supplémentaires lors d'actions de combat en mêlée avec une paire d'armes identiques."
+	},
+	{
+		"skill_id": 2,
+		"skill_name": "",
+		"skill_name_en": "+1 die: Melee",
+		"description": "Lancez un dé supplémentaire lors des actions de combat en mêlée. Les armes de mêlée dual gagnent un dé chacune, offrant ainsi 2 dés supplémentaires lors d'actions de combat en mêlée avec une paire d'armes identiques.",
+		"description_en": "Lancez un dé supplémentaire lors des actions de combat en mêlée. Les armes de mêlée dual gagnent un dé chacune, offrant ainsi 2 dés supplémentaires lors d'actions de combat en mêlée avec une paire d'armes identiques."
+	},
+	{
+		"skill_id": 3,
+		"skill_name": "",
+		"skill_name_en": "+1 die: Melee",
+		"description": "Lancez un dé supplémentaire lors des actions de combat en mêlée. Les armes de mêlée dual gagnent un dé chacune, offrant ainsi 2 dés supplémentaires lors d'actions de combat en mêlée avec une paire d'armes identiques.",
+		"description_en": "Lancez un dé supplémentaire lors des actions de combat en mêlée. Les armes de mêlée dual gagnent un dé chacune, offrant ainsi 2 dés supplémentaires lors d'actions de combat en mêlée avec une paire d'armes identiques."
+	},
+	{
+		"skill_id": 4,
+		"skill_name": "",
+		"skill_name_en": "+1 die: Melee",
+		"description": "Lancez un dé supplémentaire lors des actions de combat en mêlée. Les armes de mêlée dual gagnent un dé chacune, offrant ainsi 2 dés supplémentaires lors d'actions de combat en mêlée avec une paire d'armes identiques.",
+		"description_en": "Lancez un dé supplémentaire lors des actions de combat en mêlée. Les armes de mêlée dual gagnent un dé chacune, offrant ainsi 2 dés supplémentaires lors d'actions de combat en mêlée avec une paire d'armes identiques."
+	},
+	{
+		"skill_id": 5,
+		"skill_name": "",
+		"skill_name_en": "+1 die: Melee",
+		"description": "Lancez un dé supplémentaire lors des actions de combat en mêlée. Les armes de mêlée dual gagnent un dé chacune, offrant ainsi 2 dés supplémentaires lors d'actions de combat en mêlée avec une paire d'armes identiques.",
+		"description_en": "Lancez un dé supplémentaire lors des actions de combat en mêlée. Les armes de mêlée dual gagnent un dé chacune, offrant ainsi 2 dés supplémentaires lors d'actions de combat en mêlée avec une paire d'armes identiques."
+	},
+	{
+		"skill_id": 6,
+		"skill_name": "",
+		"skill_name_en": "+1 die: Melee",
+		"description": "Lancez un dé supplémentaire lors des actions de combat en mêlée. Les armes de mêlée dual gagnent un dé chacune, offrant ainsi 2 dés supplémentaires lors d'actions de combat en mêlée avec une paire d'armes identiques.",
+		"description_en": "Lancez un dé supplémentaire lors des actions de combat en mêlée. Les armes de mêlée dual gagnent un dé chacune, offrant ainsi 2 dés supplémentaires lors d'actions de combat en mêlée avec une paire d'armes identiques."
+	},
+	{
+		"skill_id": 7,
+		"skill_name": "",
+		"skill_name_en": "+1 die: Melee",
+		"description": "Lancez un dé supplémentaire lors des actions de combat en mêlée. Les armes de mêlée dual gagnent un dé chacune, offrant ainsi 2 dés supplémentaires lors d'actions de combat en mêlée avec une paire d'armes identiques.",
+		"description_en": "Lancez un dé supplémentaire lors des actions de combat en mêlée. Les armes de mêlée dual gagnent un dé chacune, offrant ainsi 2 dés supplémentaires lors d'actions de combat en mêlée avec une paire d'armes identiques."
+	}
+]

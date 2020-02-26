@@ -2,20 +2,21 @@ package com.example.zombicide.controllers
 
 import android.os.Bundle
 import android.util.Log
-import android.widget.ArrayAdapter
 import androidx.appcompat.app.AppCompatActivity
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.zombicide.R
-import com.example.zombicide.models.Data
+import com.example.zombicide.models.Hero
+import com.example.zombicide.models.Skills
 import com.google.android.material.snackbar.Snackbar
+import com.google.gson.Gson
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.content_main.*
-import org.json.JSONArray
 import java.io.IOException
 
 
 class MainActivity : AppCompatActivity() {
 
-    var mArray = ArrayList<Data>()
+    private lateinit var adapter : HeroAdapter
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -30,36 +31,39 @@ class MainActivity : AppCompatActivity() {
             Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                 .setAction("Action", null).show()
 
-            getJson()
+            getDataFromJson()
         }
         //endregion
     }
 
-    private fun getJson() {
-        var mJson : String? = null
+    private fun configureRecyclerView(mHeroesList: List<Hero>) {
+        Log.d(TAG, "configureRecyclerView")
+
+        // Fetch our data.
+        recycler_view.layoutManager = LinearLayoutManager(this)
+        adapter = HeroAdapter(this, mHeroesList)
+        adapter.notifyDataSetChanged()
+        recycler_view.adapter = adapter
+    }
+
+    private fun getDataFromJson() {
+
+        val mHeroesJson: String?
+        val mSkillsJson: String?
+        val mGson = Gson()
 
         try {
-            val mInputStream = assets.open("heroes.json")
-            mJson = mInputStream.bufferedReader().use{ it.readText()}
+            val mHeroesInputStream = assets.open("heroes.json")
+            mHeroesJson = mHeroesInputStream.bufferedReader().use{ it.readText()}
+            val mHeroesList = (mGson.fromJson(mHeroesJson, Array<Hero>::class.java)).toList()
 
-            var mJsonArray = JSONArray(mJson)
+            val mSkillsInputStream = assets.open("skills.json")
+            mSkillsJson = mSkillsInputStream.bufferedReader().use{ it.readText()}
+            val mSkillsList = (mGson.fromJson(mSkillsJson, Array<Skills>::class.java)).toList()
 
-            for (i in 0 until mJsonArray.length()){
-                var mData = Data()
-                var mJsonObject = mJsonArray.getJSONObject(i)
+            Log.d(TAG, "$mSkillsList")
 
-                mData.id = mJsonObject.getString("id")
-                mData.name = mJsonObject.getString("name")
-                mData.from = mJsonObject.getString("from")
-                mData.story_fr = mJsonObject.getString("story_fr")
-                mData.alt_armor_en = mJsonObject.getString("alt_armor_en")
-
-                mArray.add(mData)
-            }
-
-            var mArrayAdapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, mArray)
-            listView.adapter = mArrayAdapter
-
+            configureRecyclerView(mHeroesList)
         } catch (e : IOException) {
             Log.d(TAG, e.toString())
         }
