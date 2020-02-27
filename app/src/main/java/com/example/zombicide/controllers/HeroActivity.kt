@@ -17,19 +17,19 @@ class HeroActivity : AppCompatActivity() {
 
     companion object {
         const val TAG = "HeroActivity"
-
-        private lateinit var mCurrentHero: Hero
-        private lateinit var mCurrentHeroSkills : ArrayList<Skill>
     }
+
+    //region {Initialization}
+    private lateinit var mCurrentHero: Hero
+    private lateinit var mCurrentHeroSkills : ArrayList<Skill>
+    //endregion
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_hero)
 
-        // Get current hero from the previous selected item
-        // using extras from intent
+        // Get current hero from the previous selected item, using extras from intent
         mCurrentHero = intent.getParcelableExtra("currentHero") as Hero
-        Log.d(TAG, "Current hero is ${mCurrentHero.name}")
 
         //region {General Settings}
         setSupportActionBar(toolbar)
@@ -46,7 +46,8 @@ class HeroActivity : AppCompatActivity() {
             val mSkillsList = MyJsonStream().getSkills(this)
             updateUI(mSkillsList)
         } catch (e : IOException) {
-            Log.d(TAG, e.toString())
+            println("Throwing IOException.")
+            throw e
         }
     }
 
@@ -73,8 +74,6 @@ class HeroActivity : AppCompatActivity() {
         val mArrayAdapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, mCurrentHeroSkills)
         listView.adapter = mArrayAdapter
     }
-
-
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean = when (item.itemId) {
         android.R.id.home -> {
