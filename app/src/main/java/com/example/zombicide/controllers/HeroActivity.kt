@@ -18,7 +18,7 @@ class HeroActivity : AppCompatActivity() {
     companion object {
         const val TAG = "HeroActivity"
 
-        lateinit var mCurrentHero: Hero
+        private lateinit var mCurrentHero: Hero
         private lateinit var mCurrentHeroSkills : ArrayList<Skill>
     }
 
@@ -28,7 +28,7 @@ class HeroActivity : AppCompatActivity() {
 
         // Get current hero from the previous selected item
         // using extras from intent
-        mCurrentHero = intent.getParcelableExtra("currentHero")
+        mCurrentHero = intent.getParcelableExtra("currentHero") as Hero
         Log.d(TAG, "Current hero is ${mCurrentHero.name}")
 
         //region {General Settings}
