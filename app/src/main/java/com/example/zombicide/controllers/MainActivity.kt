@@ -50,8 +50,8 @@ class MainActivity : AppCompatActivity() {
     private fun getDataFromJson() {
 
         try {
-            val mHeroesList = MyJsonStream().getHeroes(this)
-            configureRecyclerView(mHeroesList)
+            val mSurvivorList = MyJsonStream().getSurvivors(this)
+            configureRecyclerView(mSurvivorList)
         } catch (e : IOException) {
             Log.d(TAG, e.toString())
         }

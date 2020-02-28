@@ -1,15 +1,15 @@
 package com.example.zombicide.controllers
 
+import com.example.zombicide.models.Survivor
 import android.os.Bundle
 import android.util.Log
 import android.view.MenuItem
 import android.widget.ArrayAdapter
 import androidx.appcompat.app.AppCompatActivity
 import com.example.zombicide.R
-import com.example.zombicide.models.Survivor
 import com.example.zombicide.models.Skill
 import com.example.zombicide.utils.MyJsonStream
-import kotlinx.android.synthetic.main.activity_hero.*
+import kotlinx.android.synthetic.main.activity_survivor.*
 import kotlinx.android.synthetic.main.toolbar.*
 import java.io.IOException
 
@@ -26,7 +26,7 @@ class SurvivorActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_hero)
+        setContentView(R.layout.activity_survivor)
 
         // Get current hero from the previous selected item, using extras from intent
         mCurrentSurvivor = intent.getParcelableExtra("currentHero") as Survivor
@@ -35,7 +35,7 @@ class SurvivorActivity : AppCompatActivity() {
         setSupportActionBar(toolbar)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.setHomeButtonEnabled(true)
-        supportActionBar?.title = mCurrentSurvivor.name
+        supportActionBar?.title = mCurrentSurvivor.name.long_fr
         //endregion
 
         getDataFromJson()

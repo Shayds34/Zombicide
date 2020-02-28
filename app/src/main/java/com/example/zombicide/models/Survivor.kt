@@ -7,13 +7,13 @@ import kotlinx.android.parcel.Parcelize
 @Parcelize
 data class Survivor (
 
-    @SerializedName("id") val id : Int,
-    @SerializedName("name") val name : String,
-    @SerializedName("from") val from : String,
-    @SerializedName("story") val story : String,
-    @SerializedName("story_en") val story_en : String,
-    @SerializedName("alt_armor") val alt_armor : String,
-    @SerializedName("alt_armor_en") val alt_armor_en : String,
-    @SerializedName("skills") val skills : List<Skills>
-
+	@SerializedName("id") val id : Int,
+	@SerializedName("official") val official : Boolean,
+	@SerializedName("name") val name : Name,
+	@SerializedName("era") val era : String,
+	@SerializedName("from") val from : String,
+	@SerializedName("quote") val quote : Quote,
+	@SerializedName("story") val story : Story,
+	@SerializedName("body") val body : Body,
+	@SerializedName("skills") val skills : List<Skills>
 ) : Parcelable

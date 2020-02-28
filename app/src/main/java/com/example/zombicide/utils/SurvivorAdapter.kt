@@ -45,8 +45,8 @@ class SurvivorAdapter(private val context: Context, private var items: List<Surv
         fun bind(survivor: Survivor) {
             this.mSurvivor = survivor
 
-            mHeroName.text = mSurvivor.name
-            mHeroStory.text = mSurvivor.story
+            mHeroName.text = mSurvivor.name.short_fr
+            mHeroStory.text = mSurvivor.story.fr
             mHeroFrom.text = mSurvivor.from
         }
         fun setListeners() {
