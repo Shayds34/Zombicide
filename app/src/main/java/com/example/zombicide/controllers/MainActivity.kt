@@ -5,12 +5,10 @@ import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.zombicide.R
-import com.example.zombicide.models.Hero
-import com.example.zombicide.models.Skills
-import com.example.zombicide.utils.HeroAdapter
+import com.example.zombicide.models.Survivor
+import com.example.zombicide.utils.SurvivorAdapter
 import com.example.zombicide.utils.MyJsonStream
 import com.google.android.material.snackbar.Snackbar
-import com.google.gson.Gson
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.content_main.*
 import kotlinx.android.synthetic.main.toolbar.*
@@ -19,7 +17,7 @@ import java.io.IOException
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var adapter : HeroAdapter
+    private lateinit var adapter : SurvivorAdapter
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -39,12 +37,12 @@ class MainActivity : AppCompatActivity() {
         //endregion
     }
 
-    private fun configureRecyclerView(mHeroesList: List<Hero>) {
+    private fun configureRecyclerView(mHeroesList: List<Survivor>) {
         Log.d(TAG, "configureRecyclerView")
 
         // Fetch our data.
         recycler_view.layoutManager = LinearLayoutManager(this)
-        adapter = HeroAdapter(this, mHeroesList)
+        adapter = SurvivorAdapter(this, mHeroesList)
         adapter.notifyDataSetChanged()
         recycler_view.adapter = adapter
     }

@@ -7,11 +7,11 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.zombicide.R
-import com.example.zombicide.controllers.HeroActivity
-import com.example.zombicide.models.Hero
+import com.example.zombicide.controllers.SurvivorActivity
+import com.example.zombicide.models.Survivor
 import kotlinx.android.synthetic.main.list_item_hero.view.*
 
-class HeroAdapter(private val context: Context, private var items: List<Hero>) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
+class SurvivorAdapter(private val context: Context, private var items: List<Survivor>) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 
     companion object {
         // const val TAG = "HeroAdapter"
@@ -36,23 +36,23 @@ class HeroAdapter(private val context: Context, private var items: List<Hero>) :
     }
 
     inner class HeroViewHolder(itemView : View) : RecyclerView.ViewHolder(itemView) {
-        private lateinit var mHero : Hero
+        private lateinit var mSurvivor : Survivor
 
         private val mHeroName = itemView.tv_name
         private val mHeroStory = itemView.tv_story
         private val mHeroFrom = itemView.tv_from
 
-        fun bind(hero: Hero) {
-            this.mHero = hero
+        fun bind(survivor: Survivor) {
+            this.mSurvivor = survivor
 
-            mHeroName.text = mHero.name
-            mHeroStory.text = mHero.story
-            mHeroFrom.text = mHero.from
+            mHeroName.text = mSurvivor.name
+            mHeroStory.text = mSurvivor.story
+            mHeroFrom.text = mSurvivor.from
         }
         fun setListeners() {
             itemView.setOnClickListener {
-                val intent = Intent(context, HeroActivity::class.java)
-                intent.putExtra("currentHero", mHero)
+                val intent = Intent(context, SurvivorActivity::class.java)
+                intent.putExtra("currentHero", mSurvivor)
                 context.startActivity(intent)
             }
         }

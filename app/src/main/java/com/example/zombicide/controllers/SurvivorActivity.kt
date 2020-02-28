@@ -6,21 +6,21 @@ import android.view.MenuItem
 import android.widget.ArrayAdapter
 import androidx.appcompat.app.AppCompatActivity
 import com.example.zombicide.R
-import com.example.zombicide.models.Hero
+import com.example.zombicide.models.Survivor
 import com.example.zombicide.models.Skill
 import com.example.zombicide.utils.MyJsonStream
 import kotlinx.android.synthetic.main.activity_hero.*
 import kotlinx.android.synthetic.main.toolbar.*
 import java.io.IOException
 
-class HeroActivity : AppCompatActivity() {
+class SurvivorActivity : AppCompatActivity() {
 
     companion object {
         const val TAG = "HeroActivity"
     }
 
     //region {Initialization}
-    private lateinit var mCurrentHero: Hero
+    private lateinit var mCurrentSurvivor: Survivor
     private lateinit var mCurrentHeroSkills : ArrayList<Skill>
     //endregion
 
@@ -29,13 +29,13 @@ class HeroActivity : AppCompatActivity() {
         setContentView(R.layout.activity_hero)
 
         // Get current hero from the previous selected item, using extras from intent
-        mCurrentHero = intent.getParcelableExtra("currentHero") as Hero
+        mCurrentSurvivor = intent.getParcelableExtra("currentHero") as Survivor
 
         //region {General Settings}
         setSupportActionBar(toolbar)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.setHomeButtonEnabled(true)
-        supportActionBar?.title = mCurrentHero.name
+        supportActionBar?.title = mCurrentSurvivor.name
         //endregion
 
         getDataFromJson()
@@ -60,7 +60,7 @@ class HeroActivity : AppCompatActivity() {
         // the index of the first element matching our predicate
         // (or -1 if the collection doest not contain such element)
 
-        for (skill in mCurrentHero.skills) {
+        for (skill in mCurrentSurvivor.skills) {
             val index = mSkillsList.indexOfFirst { it.skill_id == skill.skill_id}
             if (index >= 0) {
                 val mCurrentSkill = mSkillsList[index]

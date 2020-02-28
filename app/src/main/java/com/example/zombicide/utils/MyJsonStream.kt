@@ -3,7 +3,7 @@ package com.example.zombicide.utils
 import android.content.Context
 import android.util.Log
 import com.example.zombicide.models.CustomSkill
-import com.example.zombicide.models.Hero
+import com.example.zombicide.models.Survivor
 import com.example.zombicide.models.Skill
 import com.google.gson.Gson
 
@@ -17,12 +17,12 @@ class MyJsonStream {
     private lateinit var mSkillsJson: String
     private val mGson = Gson()
 
-    fun getHeroes(context: Context) : List<Hero> {
+    fun getHeroes(context: Context) : List<Survivor> {
         Log.d(TAG, "Getting heroes list.")
         val mInputStream = context.assets.open("heroes.json")
         mHeroesJson = mInputStream.bufferedReader().use{ it.readText()}
 
-        return (mGson.fromJson(mHeroesJson, Array<Hero>::class.java)).toList()
+        return (mGson.fromJson(mHeroesJson, Array<Survivor>::class.java)).toList()
     }
 
     fun getSkills(context: Context) : List<Skill> {

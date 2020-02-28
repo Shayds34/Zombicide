@@ -5,7 +5,7 @@ import com.google.gson.annotations.SerializedName
 import kotlinx.android.parcel.Parcelize
 
 @Parcelize
-data class Hero (
+data class Survivor (
 
     @SerializedName("id") val id : Int,
     @SerializedName("name") val name : String,
@@ -15,4 +15,5 @@ data class Hero (
     @SerializedName("alt_armor") val alt_armor : String,
     @SerializedName("alt_armor_en") val alt_armor_en : String,
     @SerializedName("skills") val skills : List<Skills>
+
 ) : Parcelable
