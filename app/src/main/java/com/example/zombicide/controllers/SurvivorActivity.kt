@@ -29,7 +29,7 @@ class SurvivorActivity : AppCompatActivity() {
         setContentView(R.layout.activity_survivor)
 
         // Get current hero from the previous selected item, using extras from intent
-        mCurrentSurvivor = intent.getParcelableExtra("currentHero") as Survivor
+        mCurrentSurvivor = intent.getParcelableExtra("currentSurvivor") as Survivor
 
         //region {General Settings}
         setSupportActionBar(toolbar)

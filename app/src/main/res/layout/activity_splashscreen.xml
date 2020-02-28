@@ -15,7 +15,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        app:layout_constraintEnd_toEndOf="parent"
+        android:contentDescription="@string/zombicide_logo" />
     <!--        app:layout_constraintStart_toStartOf="parent"-->
     <!--        app:layout_constraintEnd_toEndOf="parent"-->
     <!--        app:layout_constraintBottom_toTopOf="@+id/progress_circular" />-->
@@ -30,5 +31,16 @@
         app:layout_constraintTop_toBottomOf="@id/app_logo_splash_screen"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/start"
+        style="@style/Button"
+        app:layout_constraintTop_toBottomOf="@id/app_logo_splash_screen"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:visibility="gone"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

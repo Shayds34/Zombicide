@@ -28,10 +28,7 @@ class MainActivity : AppCompatActivity() {
         toolbar.setTitle(R.string.app_name)
 
         // Floating Action Button
-        fab.setOnClickListener { view ->
-            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                .setAction("Action", null).show()
-
+        fab.setOnClickListener {
             getDataFromJson()
         }
         //endregion
@@ -48,7 +45,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun getDataFromJson() {
-
         try {
             val mSurvivorList = MyJsonStream().getSurvivors(this)
             configureRecyclerView(mSurvivorList)

@@ -31,4 +31,8 @@
         <item name="android:background">@color/black_overlay</item>
     </style>
 
+    <style name="Button" parent="Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="backgroundTint">@color/colorAccent</item>
+    </style>
+
 </resources>

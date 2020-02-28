@@ -25,36 +25,144 @@
 		"skills": [
 			{
 				"slot": 1,
-				"skill_id": 1
+				"skill_id": 10
 			},
 			{
 				"slot": 2,
-				"skill_id": 2
+				"skill_id": 1
 			},
 			{
 				"slot": 3,
-				"skill_id": 3
+				"skill_id": 15
 			},
 			{
 				"slot": 4,
-				"skill_id": 4
+				"skill_id": 75
 			},
 			{
 				"slot": 5,
-				"skill_id": 5
+				"skill_id": 12
 			},
 			{
 				"slot": 6,
-				"skill_id": 7
+				"skill_id": 4
 			},
 			{
 				"slot": 7,
-				"skill_id": 7
+				"skill_id": 39
 			}
 		]
 	},
 	{
-		"id": 1,
+		"id": 2,
+		"official": true,
+		"name": {
+			"long_en": "Nelly",
+			"long_fr": "Nelly",
+			"short_en": "Nelly",
+			"short_fr": "Nelly"
+		},
+		"era": "fantasy",
+		"from": "Black plague core box",
+		"quote": {
+			"en": "Life and risk, my friend: they go hand in hand.",
+			"fr": "La vie et le risque marchent main dans la main, mon ami."
+		},
+		"story": {
+			"en": "Never quite able to get ahead, Nelly found herself stuck in the life of a tavern wench from an early age. She avoided the usual traps such young women often fell victim to, such as becoming a mistress for some petty noble, or working in some brothel. Ever a dreamer, bright-eyed Nelly craved something more, but didn’t really know what, or how to get it. Until the zombies appeared. Turns out bashing grabby patrons in the head with full tankards isn’t too much different than bashing grabby zombies with a club. A natural with just about any weapon, Nelly has found her purpose in life: Zombicide!",
+			"fr": "La chance n’avait jamais vraiment souri à Nelly, qui se retrouva coincée comme serveuse de taverne dès son plus jeune âge. Elle réussit à éviter les pièges les plus courants qui attendent les jeunes filles, comme devenir la maîtresse de quelque nobliau ou échouer dans un bordel. Rêveuse invétérée, Nelly attendait plus de la vie, sans vraiment savoir quoi, ou comment l’obtenir. Jusqu’à ce que viennent les zombies. Il se trouve que cogner des soûlards aux mains baladeuses à coup de chopes pleines n’est pas si différent que de tabasser des zombies trop collants à coup de massue. Naturellement douée avec n’importe quelle arme, Nelly a découvert son but dans la vie : le Zombicide !"
+		},
+		"body": {
+			"en": "This slot may hold a Dagger instead.",
+			"fr": "Cet emplacement peut contenir une Dague à la place."
+		},
+		"skills": [
+			{
+				"slot": 1,
+				"skill_id": 16
+			},
+			{
+				"slot": 2,
+				"skill_id": 1
+			},
+			{
+				"slot": 3,
+				"skill_id": 68
+			},
+			{
+				"slot": 4,
+				"skill_id": 27
+			},
+			{
+				"slot": 5,
+				"skill_id": 12
+			},
+			{
+				"slot": 6,
+				"skill_id": 4
+			},
+			{
+				"slot": 7,
+				"skill_id": 39
+			}
+		]
+	},
+	{
+		"id": 3,
+		"official": true,
+		"name": {
+			"long_en": "Baldric",
+			"long_fr": "Baldric",
+			"short_en": "Baldric",
+			"short_fr": "Baldric"
+		},
+		"era": "fantasy",
+		"from": "Black plague core box",
+		"quote": {
+			"en": "Knowledge is power. Magic is simply a tool.",
+			"fr": "Le savoir est source de pouvoir. La magie n’est qu’un outil."
+		},
+		"story": {
+			"en": "Baldric was a brilliant adventurer. Mighty, mysterious, and powerful, his magical might became legendary. Yet he always valued his research skills over his magical prowess. Knowing what spell to use against the right kind of opponent gave him the edge that let him live to a ripe old age. His magic academy continued to preach this doctrine, despite heavy criticism from his magical peers that wanted arcane knowledge to remain ‘occult’ and hidden. All that changed with the horde’s invasion. Now he travels where needed, teach anyone that wants to learn, and blasting any zombie that dares show its face.",
+			"fr": "Baldric était un aventurier hors pair. Il était fort, mystérieux, puissant et ses pouvoirs magiques étaient devenus légendaires. À ses yeux pourtant, la recherche et le savoir avaient toujours primé sur les prouesses magiques. L’art de choisir le sortilège idéal en toute situation lui avait toujours procuré un avantage, ce qui lui avait permis d’atteindre un âge avancé. Il continuait à prêcher cette doctrine au sein de son académie de magie, en dépit des critiques acerbes de ses pairs, pour qui les connaissances des arcanes devaient rester « occultes » et secrètes. L’invasion de la horde allait changer tout ça. Aujourd’hui, il se rend là où on a besoin de lui, il enseigne à tous ceux qui sont désireux d’apprendre et désintègre le premier zombie qui pointe le bout de son nez."
+		},
+		"body": {
+			"en": "",
+			"fr": ""
+		},
+		"skills": [
+			{
+				"slot": 1,
+				"skill_id": 0
+			},
+			{
+				"slot": 2,
+				"skill_id": 0
+			},
+			{
+				"slot": 3,
+				"skill_id": 0
+			},
+			{
+				"slot": 4,
+				"skill_id": 0
+			},
+			{
+				"slot": 5,
+				"skill_id": 0
+			},
+			{
+				"slot": 6,
+				"skill_id": 0
+			},
+			{
+				"slot": 7,
+				"skill_id": 0
+			}
+		]
+	},
+	{
+		"id": 2,
 		"official": true,
 		"name": {
 			"long_en": "",
@@ -62,8 +170,12 @@
 			"short_en": "",
 			"short_fr": ""
 		},
-		"era": "",
-		"from": "",
+		"era": "fantasy",
+		"from": "Black plague core box",
+		"quote": {
+			"en": "",
+			"fr": ""
+		},
 		"story": {
 			"en": "",
 			"fr": ""
@@ -75,31 +187,139 @@
 		"skills": [
 			{
 				"slot": 1,
-				"skill_id": 1
+				"skill_id": 0
 			},
 			{
 				"slot": 2,
-				"skill_id": 2
+				"skill_id": 0
 			},
 			{
 				"slot": 3,
-				"skill_id": 3
+				"skill_id": 0
 			},
 			{
 				"slot": 4,
-				"skill_id": 4
+				"skill_id": 0
 			},
 			{
 				"slot": 5,
-				"skill_id": 5
+				"skill_id": 0
 			},
 			{
 				"slot": 6,
-				"skill_id": 6
+				"skill_id": 0
 			},
 			{
 				"slot": 7,
-				"skill_id": 7
+				"skill_id": 0
+			}
+		]
+	},
+	{
+		"id": 2,
+		"official": true,
+		"name": {
+			"long_en": "",
+			"long_fr": "",
+			"short_en": "",
+			"short_fr": ""
+		},
+		"era": "fantasy",
+		"from": "Black plague core box",
+		"quote": {
+			"en": "",
+			"fr": ""
+		},
+		"story": {
+			"en": "",
+			"fr": ""
+		},
+		"body": {
+			"en": "",
+			"fr": ""
+		},
+		"skills": [
+			{
+				"slot": 1,
+				"skill_id": 0
+			},
+			{
+				"slot": 2,
+				"skill_id": 0
+			},
+			{
+				"slot": 3,
+				"skill_id": 0
+			},
+			{
+				"slot": 4,
+				"skill_id": 0
+			},
+			{
+				"slot": 5,
+				"skill_id": 0
+			},
+			{
+				"slot": 6,
+				"skill_id": 0
+			},
+			{
+				"slot": 7,
+				"skill_id": 0
+			}
+		]
+	},
+	{
+		"id": 2,
+		"official": true,
+		"name": {
+			"long_en": "",
+			"long_fr": "",
+			"short_en": "",
+			"short_fr": ""
+		},
+		"era": "fantasy",
+		"from": "Black plague core box",
+		"quote": {
+			"en": "",
+			"fr": ""
+		},
+		"story": {
+			"en": "",
+			"fr": ""
+		},
+		"body": {
+			"en": "",
+			"fr": ""
+		},
+		"skills": [
+			{
+				"slot": 1,
+				"skill_id": 0
+			},
+			{
+				"slot": 2,
+				"skill_id": 0
+			},
+			{
+				"slot": 3,
+				"skill_id": 0
+			},
+			{
+				"slot": 4,
+				"skill_id": 0
+			},
+			{
+				"slot": 5,
+				"skill_id": 0
+			},
+			{
+				"slot": 6,
+				"skill_id": 0
+			},
+			{
+				"slot": 7,
+				"skill_id": 0
 			}
 		]
 	}
