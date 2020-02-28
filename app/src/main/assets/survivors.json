@@ -1,0 +1,106 @@
+[
+	{
+		"id": 1,
+		"official": true,
+		"name": {
+			"long_en": "Clovis",
+			"long_fr": "Clovis",
+			"short_en": "Clovis",
+			"short_fr": "Clovis"
+		},
+		"era": "fantasy",
+		"from": "Black plague core box",
+		"quote": {
+			"en": "The end of the world? The end of yours, not mine!",
+			"fr": "La fin du monde ? De ton monde, peut-être. Pas du mien."
+		},
+		"story": {
+			"en": "Clovis’ love of the law led him to become a paladin long ago. As years passed, he learned the hard way that the law is rarely black & white. Shades of grey colored his perceptions, especially in the many deeds done to keep his lord’s hands clean. Now civilization is crumbling, and the lords can do naught but cower. Clovis has at last realized that justice and glory are more than a shiny shield and serving the nobility. Real honor is gained through deeds, not by lordly fiat.",
+			"fr": "L’amour de la justice poussa Clovis à devenir paladin, il y a fort longtemps. Au fil des ans, il apprit à ses dépens que rien n’est jamais ni tout noir ni tout blanc. Des nuances de gris entachèrent sa perception de la justice, particulièrement suite aux actes qu’il dut accomplir pour que son seigneur garde les mains propres. Aujourd’hui, la civilisation s’effondre et les puissants ne pensent qu’à leur propre sécurité. Clovis a réalisé que la justice et la gloire représentent bien plus qu’un bouclier brillant ou qu’un serment de fidélité. L’honneur, le vrai, se gagne par les actes, et non pas par décret de noblesse."
+		},
+		"body": {
+			"en": "This slot may hold a Shield instead.",
+			"fr": "Cet emplacement peut contenir un Bouclier à la place."
+		},
+		"skills": [
+			{
+				"slot": 1,
+				"skill_id": 1
+			},
+			{
+				"slot": 2,
+				"skill_id": 2
+			},
+			{
+				"slot": 3,
+				"skill_id": 3
+			},
+			{
+				"slot": 4,
+				"skill_id": 4
+			},
+			{
+				"slot": 5,
+				"skill_id": 5
+			},
+			{
+				"slot": 6,
+				"skill_id": 7
+			},
+			{
+				"slot": 7,
+				"skill_id": 7
+			}
+		]
+	},
+	{
+		"id": 1,
+		"official": true,
+		"name": {
+			"long_en": "",
+			"long_fr": "",
+			"short_en": "",
+			"short_fr": ""
+		},
+		"era": "",
+		"from": "",
+		"story": {
+			"en": "",
+			"fr": ""
+		},
+		"body": {
+			"en": "",
+			"fr": ""
+		},
+		"skills": [
+			{
+				"slot": 1,
+				"skill_id": 1
+			},
+			{
+				"slot": 2,
+				"skill_id": 2
+			},
+			{
+				"slot": 3,
+				"skill_id": 3
+			},
+			{
+				"slot": 4,
+				"skill_id": 4
+			},
+			{
+				"slot": 5,
+				"skill_id": 5
+			},
+			{
+				"slot": 6,
+				"skill_id": 6
+			},
+			{
+				"slot": 7,
+				"skill_id": 7
+			}
+		]
+	}
+]
