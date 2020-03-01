@@ -7,4 +7,15 @@
     <string name="dummy_content">DUMMY\nCONTENT</string>
     <string name="zombicide_logo">Zombicide Logo</string>
     <string name="start">Start</string>
+    <string name="title_activity_results">Results</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="survivors">Survivors</string>
+    <string name="skills">Skills</string>
+    <string name="description">Description</string>
+    <string name="heroes_with_that_skill">Heroes with that skill</string>
+    <string name="skill_id">Skill id : 1</string>
+    <string name="survivor_name">Jean-Pierre</string>
 </resources>
