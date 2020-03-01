@@ -52,9 +52,6 @@ class SkillsFragment : Fragment() {
     }
 
     private fun configureRecyclerView(mSkillsList: List<Skill>) {
-        Log.d(MainActivity.TAG, "configureRecyclerView")
-
-        // Fetch our data.
         recycler_view.layoutManager = LinearLayoutManager(mContext)
         adapter = SkillAdapter(mContext, mSkillsList)
         adapter.notifyDataSetChanged()

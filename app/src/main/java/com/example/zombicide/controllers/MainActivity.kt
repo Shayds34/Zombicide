@@ -3,6 +3,7 @@ package com.example.zombicide.controllers
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
+import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.example.zombicide.R
@@ -20,6 +21,7 @@ class MainActivity : AppCompatActivity() {
 
         //region {General Settings}
         setSupportActionBar(toolbar)
+        window.setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN)
 
         showFragment(SurvivorsFragment.newInstance())
         navigation_view.setOnNavigationItemSelectedListener {

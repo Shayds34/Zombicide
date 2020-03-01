@@ -11,7 +11,7 @@
         android:id="@+id/app_logo_splash_screen"
         android:layout_width="358dp"
         android:layout_height="322dp"
-        android:src="@drawable/logo_zombicide_2"
+        android:src="@drawable/logo_zombicide_black_plague"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"

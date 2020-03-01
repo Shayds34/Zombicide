@@ -10,6 +10,7 @@
     <!-- PRIMARY COLORS -->
     <color name="colorBackground">#121212</color>
     <color name="colorSurface">#262833</color>
+    <color name="colorWhite">#FFFFFF</color>
 
     <color name="card_view_semi_transparent">#B0FFFFFF</color>
 </resources>

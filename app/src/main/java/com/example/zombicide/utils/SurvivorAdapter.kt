@@ -81,9 +81,9 @@ class SurvivorAdapter(private val context: Context, private var items: List<Surv
         }
         fun setListeners() {
             itemView.setOnClickListener {
-                val intent = Intent(context, SurvivorActivity::class.java)
+                val intent = Intent(itemView.context, SurvivorActivity::class.java)
                 intent.putExtra("currentSurvivor", mSurvivor)
-                context.startActivity(intent)
+                itemView.context.startActivity(intent)
             }
         }
     }

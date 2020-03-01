@@ -70,15 +70,13 @@ class SkillAdapter (private val context: Context, private var items: List<Skill>
 
         fun bind(skill: Skill) {
             this.mSkill = skill
-
-            mSkillId.text = mSkill.skill_id.toString()
             mSkillName.text = mSkill.skill_name
         }
         fun setListeners() {
             itemView.setOnClickListener {
-                val intent = Intent(context, SkillActivity::class.java)
+                val intent = Intent(itemView.context, SkillActivity::class.java)
                 intent.putExtra("currentSkill", mSkill)
-                context.startActivity(intent)
+                itemView.context.startActivity(intent)
             }
         }
     }
