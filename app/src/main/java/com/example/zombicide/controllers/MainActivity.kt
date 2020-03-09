@@ -21,7 +21,6 @@ class MainActivity : AppCompatActivity() {
 
         //region {General Settings}
         setSupportActionBar(toolbar)
-        window.setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN)
 
         showFragment(SurvivorsFragment.newInstance())
         navigation_view.setOnNavigationItemSelectedListener {

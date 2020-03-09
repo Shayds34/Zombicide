@@ -16,8 +16,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         app:defaultQueryHint="Searching for a survivor ?"
-        android:background="@drawable/search_view_background"
-        app:iconifiedByDefault="false"/>
+        android:background="@drawable/search_view_background" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler_view"
