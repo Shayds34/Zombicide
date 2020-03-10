@@ -17,7 +17,15 @@
         android:layout_height="match_parent"
         android:layout_below="@id/toolbarLayout"
         android:layout_above="@id/navigation_view"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <ImageView
+            android:id="@+id/background_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/background_gradient"
+            android:scaleType="centerCrop"/>
+    </FrameLayout>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/navigation_view"

@@ -6,6 +6,8 @@ import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.example.zombicide.R
+import com.example.zombicide.models.Survivor
+import com.example.zombicide.utils.MyJsonStream
 import com.example.zombicide.views.SkillsFragment
 import com.example.zombicide.views.SurvivorsFragment
 import kotlinx.android.synthetic.main.activity_main.*
@@ -13,9 +15,17 @@ import kotlinx.android.synthetic.main.toolbar.*
 
 class MainActivity : AppCompatActivity() {
 
+    companion object {
+        const val TAG = "MainActivity"
+
+        var mSurvivorsList = ArrayList<Survivor>()
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        mSurvivorsList = MyJsonStream().getSurvivors(this) as ArrayList<Survivor>
 
         //region {General Settings}
         setSupportActionBar(toolbar)
@@ -44,12 +54,7 @@ class MainActivity : AppCompatActivity() {
     private fun showFragment(fragment: Fragment) {
         val mTransaction = supportFragmentManager.beginTransaction()
         mTransaction.replace(R.id.container, fragment)
-        mTransaction.addToBackStack(null)
         mTransaction.commit()
-    }
-
-    companion object {
-        const val TAG = "MainActivity"
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {

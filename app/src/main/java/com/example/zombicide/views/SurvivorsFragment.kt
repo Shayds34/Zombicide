@@ -51,7 +51,7 @@ class SurvivorsFragment : Fragment() {
 
     private fun getDataFromJson() {
         try {
-            mHeroesList = MyJsonStream().getSurvivors(mContext) as ArrayList<Survivor>
+            mHeroesList = MainActivity.mSurvivorsList
             configureRecyclerView(mHeroesList)
         } catch (e : IOException) {
             Log.d(MainActivity.TAG, e.toString())
