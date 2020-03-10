@@ -1,6 +1,7 @@
 package com.example.zombicide.controllers
 
 import android.os.Bundle
+import android.util.Log
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
@@ -27,6 +28,7 @@ class SkillActivity : AppCompatActivity() {
 
         // Get current hero from the previous selected item, using extras from intent
         mCurrentSkill = intent.getSerializableExtra("currentSkill") as Skill
+        Log.d(TAG, "Current skill is ${mCurrentSkill.skill_name}")
 
         //region {General Settings}
         setSupportActionBar(toolbar)

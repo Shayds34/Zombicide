@@ -3,11 +3,9 @@ package com.example.zombicide.controllers
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
-import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.example.zombicide.R
-import com.example.zombicide.models.Survivor
 import com.example.zombicide.views.SkillsFragment
 import com.example.zombicide.views.SurvivorsFragment
 import kotlinx.android.synthetic.main.activity_main.*

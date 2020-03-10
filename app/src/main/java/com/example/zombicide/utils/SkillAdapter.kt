@@ -65,7 +65,6 @@ class SkillAdapter (private val context: Context, private var items: List<Skill>
     inner class SkillViewHolder(itemView : View) : RecyclerView.ViewHolder(itemView) {
         private lateinit var mSkill : Skill
 
-        private val mSkillId = itemView.tv_id
         private val mSkillName = itemView.tv_name
 
         fun bind(skill: Skill) {

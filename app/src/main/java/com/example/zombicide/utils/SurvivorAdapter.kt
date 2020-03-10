@@ -15,7 +15,6 @@ import com.example.zombicide.controllers.SurvivorActivity
 import com.example.zombicide.models.Survivor
 import com.example.zombicide.views.SurvivorsFragment
 import kotlinx.android.synthetic.main.list_item_survivor.view.*
-import java.io.File
 import java.util.*
 
 class SurvivorAdapter(private val context: Context, private var items: List<Survivor>) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {

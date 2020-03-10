@@ -2,11 +2,9 @@ package com.example.zombicide.utils
 
 import android.content.Context
 import android.util.Log
-import com.example.zombicide.models.Name
-import com.example.zombicide.models.Survivor
 import com.example.zombicide.models.Skill
+import com.example.zombicide.models.Survivor
 import com.google.gson.Gson
-import com.google.gson.GsonBuilder
 
 class MyJsonStream {
 
