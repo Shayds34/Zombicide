@@ -86,7 +86,13 @@ class SurvivorAdapter(private val context: Context, private var items: List<Surv
                 .into(mHeroPicture)
 
             mHeroName.text = mSurvivor.name.short_fr
-            mHeroQuote.text = concat("\"${mSurvivor.quote.fr}\"")
+
+            if (mSurvivor.quote.fr.isEmpty()) {
+                mHeroQuote.text = concat("\"${mSurvivor.quote.en}\"")
+            } else {
+                mHeroQuote.text = concat("\"${mSurvivor.quote.fr}\"")
+            }
+
             mHeroFrom.text = mSurvivor.from
 
         }
